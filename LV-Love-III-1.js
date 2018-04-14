@@ -1,7 +1,7 @@
 /******************************************
-* Love Effect Script- By Rafly Iska (http://lavixtastar.blogspot.com/)
-* Visit Lavixta Star ~ Blogger Seni (http://lavixtastar.blogspot.com/) for full source code
-* Last updated Apr 14th, 18' by Ariel Nicho. This notice must stay intact for use
+* Love Effect Script- By Rafly Iska (https://www.brbs.my.id/)
+* Visit Lavixta Star ~ Blogger Seni (https://www.brbs.my.id/) for full source code
+* Last updated Apr 14th, 18' by Rafly Iska. This notice must stay intact for use
 ******************************************/
   
   //Configure below to change URL path to the snow image
@@ -40,7 +40,7 @@
   am = new Array();
   stx = new Array();
   sty = new Array();
-  snowsrc=(snowsrc.indexOf("https://wwww.brbs.my.id/")!=-1)? "https://cdn.rawgit.com/brbsmyid/Effect/a7e4a6c2/LV-Love-III-1.png" : snowsrc
+  snowsrc=(snowsrc.indexOf("https://www.brbs.my.id/")!=-1)? "https://cdn.rawgit.com/brbsmyid/Effect/a7e4a6c2/LV-Love-III-1.png" : snowsrc
   for (i = 0; i < no; ++ i) {  
     dx[i] = 0;                        // set coordinate variables
     xp[i] = Math.random()*(doc_width-50);  // set position variables
@@ -50,7 +50,7 @@
     sty[i] = 0.7 + Math.random();     // set step variables
 		if (ie4up||ns6up) {
       if (i == 0) {
-        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"https://wwww.brbs.my.id\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
+        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"https://www.brbs.my.id\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
       } else {
         document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"><\/div>");
       }
